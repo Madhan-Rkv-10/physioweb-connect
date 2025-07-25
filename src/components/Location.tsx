@@ -8,7 +8,7 @@ const Location = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Visit Our Clinic</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conveniently located in the heart of the city with easy access and parking
+            Conveniently located in Nagpur with easy access and dedicated care
           </p>
         </div>
 
@@ -28,8 +28,10 @@ const Location = () => {
                     <div>
                       <h4 className="font-semibold">Address</h4>
                       <p className="text-muted-foreground">
-                        123 Health Street, Medical District<br />
-                        Downtown City, State 12345
+                        House #180, Plot #828<br />
+                        Buddha Nagar, Dr. Ambedkar Road<br />
+                        Nagpur - 440017<br />
+                        <span className="text-sm">(Near Buddha Park. Adjacent to Home Sweet Home Building.)</span>
                       </p>
                     </div>
                   </div>
@@ -38,8 +40,8 @@ const Location = () => {
                     <Phone className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold">Phone</h4>
-                      <p className="text-muted-foreground">(555) 123-4567</p>
-                      <p className="text-sm text-muted-foreground">Emergency: (555) 123-4568</p>
+                      <p className="text-muted-foreground">8600996386</p>
+                      <p className="text-sm text-muted-foreground">Available for emergencies</p>
                     </div>
                   </div>
 
@@ -47,7 +49,7 @@ const Location = () => {
                     <Mail className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold">Email</h4>
-                      <p className="text-muted-foreground">info@wellnessphysio.com</p>
+                      <p className="text-muted-foreground">prachiwtherapy@gmail.com</p>
                     </div>
                   </div>
 
@@ -58,19 +60,19 @@ const Location = () => {
                       <div className="text-muted-foreground space-y-1">
                         <p>Mon-Fri: 9:00 AM - 7:00 PM</p>
                         <p>Saturday: 9:00 AM - 5:00 PM</p>
-                        <p>Sunday: Emergency Only</p>
+                        <p>Sunday: By Appointment Only</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 <div className="pt-4 border-t">
-                  <h4 className="font-semibold mb-2">Parking & Accessibility</h4>
+                  <h4 className="font-semibold mb-2">Service Areas</h4>
                   <ul className="text-muted-foreground space-y-1 text-sm">
-                    <li>• Free parking available</li>
-                    <li>• Wheelchair accessible</li>
-                    <li>• Public transport nearby</li>
-                    <li>• Ground floor location</li>
+                    <li>• Home visits available in Nagpur</li>
+                    <li>• Online consultations worldwide</li>
+                    <li>• Clinic visits by appointment</li>
+                    <li>• Emergency consultations available</li>
                   </ul>
                 </div>
               </CardContent>
@@ -85,14 +87,14 @@ const Location = () => {
               <CardContent className="p-0">
                 <div className="relative h-80 bg-medical-soft rounded-b-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.398312!2d-74.0059413!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuNCJX!5e0!3m2!1sen!2sus!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.8!2d79.0882!3d21.1458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Wellness Physiotherapy Clinic Location"
+                    title="Prachi W Therapy Clinic Location - Nagpur"
                   ></iframe>
                 </div>
               </CardContent>
@@ -100,23 +102,16 @@ const Location = () => {
 
             <Card className="card-shadow border-0">
               <CardHeader>
-                <CardTitle>Appointment Calendar</CardTitle>
+                <CardTitle>Why Choose Us?</CardTitle>
               </CardHeader>
-              <CardContent className="p-0">
-                <div className="relative h-64 bg-medical-soft rounded-b-lg overflow-hidden">
-                  <iframe
-                    src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showPrint=0&showCalendars=0&mode=WEEK"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    title="Available Appointment Slots"
-                  ></iframe>
-                  <div className="absolute inset-0 bg-medical-soft/80 flex items-center justify-center">
-                    <p className="text-center text-muted-foreground">
-                      Calendar integration coming soon<br />
-                      <span className="text-sm">Please use the booking form to schedule</span>
-                    </p>
-                  </div>
+              <CardContent className="space-y-3">
+                <div className="text-sm text-muted-foreground space-y-2">
+                  <p>✓ Personalized treatment plans</p>
+                  <p>✓ Convenient home visits available</p>
+                  <p>✓ Modern evidence-based techniques</p>
+                  <p>✓ Flexible appointment scheduling</p>
+                  <p>✓ Comprehensive rehabilitation programs</p>
+                  <p>✓ Professional and caring approach</p>
                 </div>
               </CardContent>
             </Card>

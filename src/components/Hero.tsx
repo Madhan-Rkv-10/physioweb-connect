@@ -14,9 +14,9 @@ const Hero = () => {
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Wellness 
-            <span className="text-primary block">Physiotherapy</span>
-            <span className="text-muted-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Clinic</span>
+            Prachi W
+            <span className="text-primary block">Therapy</span>
+            <span className="text-muted-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Physiotherapy Care</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto lg:mx-0">

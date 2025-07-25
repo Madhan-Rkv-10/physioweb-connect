@@ -94,7 +94,7 @@ ${formData.description ? `Additional Details: ${formData.description}` : ''}
 Please confirm my appointment. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappNumber = "1234567890"; // Replace with actual clinic WhatsApp number
+    const whatsappNumber = "918600996386"; // Ms. Prachi W's WhatsApp number
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
     
     // Open WhatsApp
