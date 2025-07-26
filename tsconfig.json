@@ -14,12 +14,12 @@
     "skipLibCheck": true,
        "target": "es5", // or higher, depending on your needs
     "module": "es2020", // or commonjs, depending on your needs
-    "outDir": "dist" // output directory for compiled JavaScript files
+    "outDir": "dist", // output directory for compiled JavaScript files
     "allowJs": true,
     "noUnusedLocals": false,
     "strictNullChecks": false
 
 
-}
+
   }
 }
