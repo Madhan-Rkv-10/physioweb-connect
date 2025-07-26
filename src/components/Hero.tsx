@@ -16,12 +16,12 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Prachi W
             <span className="text-primary block">Therapy</span>
-            <span className="text-muted-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Physiotherapy Care</span>
+            <span className="text-muted-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Psychotherapy Care</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto lg:mx-0">
-            Expert physiotherapy care to help you move better, feel stronger, and live pain-free. 
-            Professional treatment in a modern, caring environment.
+            Expert psychotherapy care to help you process emotions, build resilience, and live mentally healthier. 
+            Professional counseling in a safe, supportive environment.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="rounded-2xl overflow-hidden card-shadow">
             <img 
               src={heroImage} 
-              alt="Modern physiotherapy clinic interior" 
+              alt="Modern psychotherapy office interior" 
               className="w-full h-auto object-cover"
             />
           </div>

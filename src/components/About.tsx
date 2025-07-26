@@ -5,19 +5,19 @@ import physiotherapistImage from "@/assets/physiotherapist-portrait.jpg";
 
 const About = () => {
   const achievements = [
-    { icon: Award, label: "Professional Expertise", value: "Certified Physiotherapist" },
-    { icon: Users, label: "200+ Patients Treated", value: "Successful Recoveries" },
-    { icon: Clock, label: "Flexible Timings", value: "Home & Online Visits" },
+    { icon: Award, label: "Professional Expertise", value: "Certified Psychotherapist" },
+    { icon: Users, label: "200+ Clients Supported", value: "Successful Outcomes" },
+    { icon: Clock, label: "Flexible Timings", value: "Home & Online Sessions" },
     { icon: MapPin, label: "Nagpur Based", value: "Local & Remote Care" }
   ];
 
   const specializations = [
-    "Orthopedic Rehabilitation",
-    "Sports Medicine",
-    "Neurological Physiotherapy", 
-    "Pain Management",
-    "Home Visit Therapy",
-    "Manual Therapy"
+    "Anxiety & Depression",
+    "Trauma Therapy",
+    "Cognitive Behavioral Therapy", 
+    "Stress Management",
+    "Relationship Counseling",
+    "Mindfulness-Based Therapy"
   ];
 
   const testimonials = [
@@ -39,9 +39,9 @@ const About = () => {
     <section className="py-20 px-4 bg-medical-light" id="about">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Meet Your Physiotherapist</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Meet Your Psychotherapist</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Dedicated to helping you achieve optimal health and mobility through evidence-based treatment
+            Dedicated to helping you achieve optimal mental health and emotional well-being through evidence-based therapy
           </p>
         </div>
         
@@ -50,7 +50,7 @@ const About = () => {
             <div className="relative inline-block mb-8">
               <img 
                 src={physiotherapistImage} 
-                alt="Ms. Prachi W - Licensed Physiotherapist" 
+                alt="Ms. Prachi W - Licensed Psychotherapist" 
                 className="w-64 h-64 rounded-full object-cover mx-auto lg:mx-0 card-shadow"
               />
               <div className="absolute -bottom-2 -right-2 w-16 h-16 bg-primary rounded-full flex items-center justify-center">
@@ -59,13 +59,13 @@ const About = () => {
             </div>
             
             <h3 className="text-2xl font-bold mb-2">Ms. Prachi W</h3>
-            <p className="text-primary font-semibold mb-4">Licensed Physiotherapist</p>
+            <p className="text-primary font-semibold mb-4">Licensed Psychotherapist</p>
             
             <p className="text-muted-foreground leading-relaxed mb-6">
-              A dedicated physiotherapist with extensive experience in providing personalized care to patients. 
-              Ms. Prachi specializes in helping patients recover from injuries, manage chronic pain, and improve 
-              their overall quality of life. She is known for her exceptional communication skills, technical expertise, 
-              and compassionate approach to healthcare.
+              A dedicated psychotherapist with extensive experience in providing personalized mental health care to clients. 
+              Ms. Prachi specializes in helping clients navigate emotional challenges, develop coping strategies, and improve 
+              their overall mental well-being. She is known for her exceptional communication skills, therapeutic expertise, 
+              and compassionate approach to mental healthcare.
             </p>
             
             <div className="mb-6">

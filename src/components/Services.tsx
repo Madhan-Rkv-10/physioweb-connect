@@ -6,32 +6,32 @@ const Services = () => {
     {
       icon: Monitor,
       title: "Online Therapy",
-      description: "Convenient virtual sessions from the comfort of your home with personalized exercise programs."
+      description: "Convenient virtual therapy sessions from the comfort of your home with personalized treatment plans."
     },
     {
       icon: Home,
       title: "Home Visits",
-      description: "Professional physiotherapy services delivered to your doorstep for maximum convenience."
+      description: "Professional psychotherapy services delivered to your home for maximum comfort and convenience."
     },
     {
       icon: Heart,
-      title: "Pain Management",
-      description: "Comprehensive pain relief strategies using advanced techniques and personalized care plans."
+      title: "Anxiety & Depression",
+      description: "Comprehensive treatment for anxiety disorders and depression using evidence-based therapeutic approaches."
     },
     {
       icon: Zap,
-      title: "Sports Injury Recovery",
-      description: "Specialized treatment for athletes with focus on quick, safe return to peak performance."
+      title: "Trauma Therapy",
+      description: "Specialized treatment for trauma survivors with focus on healing and post-traumatic growth."
     },
     {
       icon: Users,
       title: "Group Sessions",
-      description: "Collaborative therapy sessions that combine professional guidance with peer support."
+      description: "Collaborative therapy sessions that combine professional guidance with peer support and shared experiences."
     },
     {
       icon: Stethoscope,
-      title: "Post-Surgery Rehabilitation",
-      description: "Expert post-operative care to ensure optimal recovery and restored mobility."
+      title: "Stress Management",
+      description: "Expert guidance for managing stress, building resilience, and developing healthy coping strategies."
     }
   ];
 
@@ -41,7 +41,7 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive physiotherapy services tailored to your unique needs and recovery goals
+            Comprehensive psychotherapy services tailored to your unique needs and mental health goals
           </p>
         </div>
         

@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Prachi W Therapy</span>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Your trusted partner in health and recovery. Professional physiotherapy 
+              Your trusted partner in mental health and emotional well-being. Professional psychotherapy 
               care delivered with compassion and expertise.
             </p>
           </div>

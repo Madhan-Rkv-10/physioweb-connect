@@ -81,7 +81,7 @@ const BookingForm = () => {
     }
 
     // Create WhatsApp message
-    const message = `Hi! I'd like to book a physiotherapy appointment:
+    const message = `Hi! I'd like to book a psychotherapy appointment:
 
 Name: ${formData.name}
 Mobile: ${formData.mobile}
@@ -229,7 +229,7 @@ Please confirm my appointment. Thank you!`;
                       id="description"
                       value={formData.description}
                       onChange={(e) => handleInputChange('description', e.target.value)}
-                      placeholder="Describe your condition, symptoms, or any specific requirements..."
+                      placeholder="Describe your concerns, emotional challenges, or any specific therapy needs..."
                       rows={4}
                     />
                   </div>
@@ -275,7 +275,7 @@ Please confirm my appointment. Thank you!`;
                   <li>• Comprehensive assessment</li>
                   <li>• Personalized treatment plan</li>
                   <li>• Progress tracking</li>
-                  <li>• Home exercise guidance</li>
+                  <li>• Coping strategies & tools</li>
                 </ul>
               </CardContent>
             </Card>
