@@ -88,7 +88,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 Prachi W Therapy. All rights reserved. | 
+            © 2025 Prachi W Therapy. All rights reserved. | 
             <span className="ml-1">Licensed Healthcare Provider - Nagpur</span>
           </p>
         </div>
